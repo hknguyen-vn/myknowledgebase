@@ -8,3 +8,6 @@
 [**Xem them 2**](../projects/hgptsteel/content-ideas.md)
 
 [2025-10-23]
+Co gi moi khong >cai nay can nhanh nhe 
+> [!NOTE]
+> Đây là ghi chú nhỏ cho nhóm truyền thông.
