@@ -1,8 +1,11 @@
-# ✅ Việc cần làm tuần này
-- [x] Hoàn thiện bài hướng dẫn Markdown
-- [x] Thiết kế f![](2025-10-23-10-01-15.png)ile HTML đọc markdown tự động
-- [x] Cập nhật tài liệu Kaizen trên GitHub 
-- [ ] fjshfsf
+## ✅ Tiến độ Tuần
+- [x] Viết hướng dẫn Markdown
+- [x] Commit lên GitHub Pages
+- [x] Viết bài DANATECH tháng 11
+- [ ] Cập nhật kế hoạch Kaizen
+
+> 📊 Tiến độ: **2/4 hoàn thành (50%)**
+
 # Ke hoach tuan sau:
 [**Xem them**](ideas.md)
 [**Xem them 2**](../projects/hgptsteel/content-ideas.md)
