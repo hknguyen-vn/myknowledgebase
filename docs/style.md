@@ -1,5 +1,5 @@
 # 🎨 HGPT STEEL MARKDOWN STYLE GUIDE  
-*Tài liệu hướng dẫn trình bày & viết nội dung Markdown cho toàn bộ kho tri thức HGPT.*
+*Tài liệu này hướng dẫn trình bày & viết nội dung Markdown cho toàn bộ kho tri thức HGPT.*
 
 ---
 ## 🧭 1. Cấu trúc & Quy ước chung
