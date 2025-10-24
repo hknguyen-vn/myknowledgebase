@@ -1,5 +1,5 @@
-# 🧭 MARKDOWN DASHBOARD – HỆ THỐNG QUẢN LÝ TRI THỨC CÁ NHÂN
-
+# 🧭 MARKDOWN DASHBOARD
+## Created by: hiennk
 > Từ đây bạn có thể truy cập nhanh tất cả các file chính trong MyKnowledgeBase.  
 > Dùng **Ctrl + Click** để mở từng phần.
 
