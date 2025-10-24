@@ -1,4 +1,4 @@
-## ✅ Checklist – Mon ngon Da Thanh
+## ✅ Checklist – Mon ngon
 - [ ] Mục 1
 - [ ] Mục 2
 - [ ] Mục 3
