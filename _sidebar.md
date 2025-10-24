@@ -4,8 +4,8 @@
   * [💡 Ideas](personal/ideas.md)
 * **Projects IT**
   * [🌐 Hạ tầng mạng](project/infrastructure/wifi-network.md)
-  * [🏗️ Hòa Phát Dung Quất 2](projects/hoaphat-f-warehouse/overview.md)
-  * [📢 DANATECH Marketing](projects/danatech-marketing/plan.md)
+  * [🏗️ HGPT STEEL](projects/hgptsteel/overview.md)
+  * [📢 DANATECH](projects/danatech/overview.md)
 * **Docs**
   * [⚙️ Tips](docs/tips.md)
   * [📘 Guide](docs/guide.md)

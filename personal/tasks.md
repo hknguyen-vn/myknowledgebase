@@ -13,5 +13,5 @@
 [2025-10-23]
 Co gi moi khong >cai nay can nhanh nhe 
 > [!NOTE]
-> Đây là ghi chú nhỏ cho nhóm truyền thông.
+> Đây là ghi chú nhỏ cho nhóm truyền thông.  
 > Day la block ne
