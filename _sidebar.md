@@ -1,6 +1,6 @@
 * [🏠 Dashboard](dashboard.md)
 * **Personal**
-  * [✅ Tasks](personal/tasks.md)
+  * [📅 Tasks](personal/tasks.md)
   * [💡 Ideas](personal/ideas.md)
 * **Projects IT**
   * [🌐 Hạ tầng mạng](project/infrastructure/wifi-network.md)
