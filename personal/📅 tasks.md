@@ -14,3 +14,4 @@
 Co gi moi khong >cai nay can nhanh nhe 
 > [!NOTE]
 > Đây là ghi chú nhỏ cho nhóm truyền thông.
+> Day la block ne
