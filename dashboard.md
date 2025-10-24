@@ -16,7 +16,7 @@
 ## 🏗️ PROJECTS
 | Dự án                | Mô tả                                  | Link                                                                                                                                                                   |
 | -------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🏢 Hòa Phát – Kho F   | Gia công & lắp dựng kết cấu thép       | [Overview](projects/hoaphat-f-warehouse/overview.md) • [Tasks](projects/hoaphat-f-warehouse/tasks.md) • [Meeting Notes](projects/hoaphat-f-warehouse/meeting-notes.md) |
+| 🏢 Hòa Phát – Kho F   | Gia công & lắp dựng kết cấu thép       | [Overview](projects/hoaphat-f-warehouse/overview.md) • [Tasks](projects/hoaphat-f-warehouse/tasks.md) • [Meeting Notes](projects/danatech/meeting-notes.md) |
 | ⚙️ DANATECH Marketing | Chiến dịch truyền thông & nội dung B2B | [Plan](projects/danatech-marketing/plan.md) • [Content Ideas](projects/danatech-marketing/content-ideas.md)                                                            |
 
 ---
