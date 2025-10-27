@@ -2,7 +2,7 @@
 *Tài liệu này hướng dẫn trình bày & viết nội dung Markdown cho toàn bộ kho tri thức HGPT.*
 
 ---
-## 🧭 1. Cấu trúc & Quy ước chung
+## 🧭 1. Cấu trúc & Quy ước chung:
 
 - Mỗi file `.md` có **một tiêu đề cấp 1 (`#`) duy nhất**.
 - Dùng tiêu đề cấp 2–3 (`##`, `###`) để chia phần.
@@ -21,7 +21,7 @@
 ## 3. Kết quả & Ghi chú
 ```
 ----------
-## 🧩 2. Tiêu đề & Emoji
+## 🧩 2. Tiêu đề & Emoji:
 Mỗi tiêu đề chính nên có emoji đặc trưng (gợi cảm xúc, dễ tra cứu).
 Một số emoji gợi ý:  
 Chủ đề	Biểu tượng	Ý nghĩa  
