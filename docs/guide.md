@@ -62,7 +62,7 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 ## 5. Liên hệ
 **Phòng IT Support – HGPT Mechanical**  
 📞 Hotline nội bộ: **#108**  
-📧 Email: **it-support@hgpt.vn**  
+📧 Email: **it@hgpt.vn**  
 🕓 Thời gian làm việc: 7h30 – 17h00 (Thứ 2 – Thứ 7)  
 🌐 Hệ thống hỗ trợ: [https://support.hgpt.vn](https://support.hgpt.vn)
 
