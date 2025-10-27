@@ -68,7 +68,7 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 
 > “Công nghệ chỉ thật sự mạnh khi con người biết chia sẻ và hỗ trợ nhau.”  
 > — IT Help Desk Team
-## IP cua mayin
+## 6. IP cua mayin
 
 - 192.168.1.247 LBP 223dw
 - 192.168.1.246 LBP 242/243dw
