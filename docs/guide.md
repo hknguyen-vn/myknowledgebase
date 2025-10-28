@@ -1,4 +1,4 @@
-# IT SUPPORT - HELP DESK GUIDE
+# IT SUPPORT - TÀI LIỆU HƯỚNG DẪN
 
 ## 1. Giới thiệu
 Bộ phận **IT Support / Help Desk** chịu trách nhiệm hỗ trợ kỹ thuật cho toàn bộ nhân viên trong công ty, đảm bảo hệ thống máy tính, mạng nội bộ, phần mềm, và thiết bị hoạt động ổn định.  
@@ -9,9 +9,11 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 ## 2. Quy trình tiếp nhận yêu cầu hỗ trợ
 
 1. **Tiếp nhận yêu cầu:**
-   - Qua email: `it-support@company.com`
    - Qua form nội bộ hoặc Zalo OA: chọn mục “Yêu cầu hỗ trợ kỹ thuật”.
    - Qua điện thoại: nội bộ **#108** (trong giờ hành chính).
+   - Hotline nội bộ: *0935678478 (Mr Hiển) 
+   - Email: `it@hgpt.vn`  
+   - Thời gian làm việc: 24/7
 
 2. **Ghi nhận và phân loại:**
    - Sự cố phần cứng (máy tính, màn hình, máy in…)
@@ -73,11 +75,6 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 ### 5.2 Dải IP được cấp DHCP
 - 192.168.1.35 đến 192.168.1.229
 - 
-## 6. Liên hệ
-**Phòng IT Support – HGPT Mechanical**  
-📞 Hotline nội bộ: *0935678478 (Mr Hiển) 
-📧 Email: **it@hgpt.vn**  
-🕓 Thời gian làm việc: 24/7
 
 > “Công nghệ chỉ thật sự mạnh khi con người biết chia sẻ và hỗ trợ nhau.”  
 > — IT-TT Team
