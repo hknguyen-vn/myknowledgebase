@@ -43,6 +43,7 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 - Kiểm tra máy in có bật không và kết nối cùng mạng LAN chưa.  
 - Gỡ và cài lại máy in:  
   *Control Panel → Devices and Printers → Add Printer → Chọn máy in tương ứng.*  
+  *Ô sờ kê*
 - Nếu vẫn lỗi, gửi ảnh màn hình lỗi qua email IT Support.
 
 ### 🔐 Quên mật khẩu tài khoản nội bộ
