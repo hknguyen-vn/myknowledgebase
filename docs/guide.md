@@ -58,17 +58,9 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 - Báo ngay cho IT nếu nghi ngờ bị tấn công hoặc lừa đảo email (phishing).
 
 ---
+## 5. IP các thiết bị
 
-## 5. Liên hệ
-**Phòng IT Support – HGPT Mechanical**  
-📞 Hotline nội bộ: **#108**  
-📧 Email: **it@hgpt.vn**  
-🕓 Thời gian làm việc: 7h30 – 17h00 (Thứ 2 – Thứ 7)  
-🌐 Hệ thống hỗ trợ: [https://support.hgpt.vn](https://support.hgpt.vn)
-
-> “Công nghệ chỉ thật sự mạnh khi con người biết chia sẻ và hỗ trợ nhau.”  
-> — IT Help Desk Team
-## 6. IP cua mayin
+### 5.1 IP Máy in
 
 - 192.168.1.247 LBP 223dw
 - 192.168.1.246 LBP 242/243dw
@@ -76,11 +68,16 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 - 192.168.1.250 Ricoh 4054
 
 
-## Dải IP được cấp DHCP
+### 5.2 Dải IP được cấp DHCP
 - 192.168.1.35 đến 192.168.1.229
+- 
+## 6. Liên hệ
+**Phòng IT Support – HGPT Mechanical**  
+📞 Hotline nội bộ: *0935678478 (Mr Hiển) 
+📧 Email: **it@hgpt.vn**  
+🕓 Thời gian làm việc: 24/7
 
-### Máy in bị lỗi không in được
+> “Công nghệ chỉ thật sự mạnh khi con người biết chia sẻ và hỗ trợ nhau.”  
+> — IT-TT Team
 
-<answer>
-Kiểm tra dây USB hoặc IP trong phần Devices & Printers....
-</answer>
+
