@@ -1,3 +1,4 @@
+# BÍ KÍP MẸO VẶT
 
 Nhưng do Docsify chỉ nhận diện **cú pháp đúng chuẩn** ` ```bash` (liền nhau, không có dấu cách hoặc dấu ngược ngược) nên nó không kích hoạt tô màu.  
 
@@ -5,7 +6,7 @@ Nhưng do Docsify chỉ nhận diện **cú pháp đúng chuẩn** ` ```bash` (l
 
 ## ✅ Cách viết đúng để có màu code nổi bật
 
-# push git:
+### push git:
 
 ```bash
 git status            # xem có gì thay đổi
@@ -16,8 +17,8 @@ git push
 
 ```
 
-# Khởi chạy cục bộ: 
+### Khởi chạy cục bộ: 
 Chạy lệnh `docsify serve .` để khởi động web cục bộ.
 
-# Ket hop markdown n8n:
+### Ket hop markdown n8n:
 Link cac flow

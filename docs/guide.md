@@ -28,7 +28,6 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
    - Mức **Low**: phản hồi trong 1 giờ, xử lý trong 1 ngày làm việc.
 
 ---
-
 ## 3. Hướng dẫn tự khắc phục lỗi thường gặp
 
 ### 💻 Máy tính không khởi động
