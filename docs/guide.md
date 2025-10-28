@@ -18,6 +18,7 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
    - Sự cố phần mềm (Office, AutoCAD, ERP, AppSheet…)
    - Sự cố mạng (Wi-Fi, Internet, VPN…)
    - Tài khoản truy cập (Gmail, Drive, máy chủ nội bộ…)
+   - Vấn đề khác (Âm thanh phòng họp, thiết bị họp trực tuyến, màn led)
 
 3. **Phản hồi và xử lý:**
    - Mức **Critical**: phản hồi trong 15 phút, xử lý trong 1 giờ.
