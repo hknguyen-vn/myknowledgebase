@@ -1,9 +1,9 @@
 # GHI CHU NHANH
 *Dung ghi chu, checklist nhanh tu moi thiet bi*
-## 2025-10-23 15:25:15
-* Tình nồng
-* Gã giang hồ
-* Chi anh hieu em
+
+## Pass camera
+Daohien285@#
+Tam12345667 Onedr, Email  **thanhtam@hgpt.vn**
 ## 2025-10-24 15:20:51
 ### ✅ Checklist – Chủ đề
 
@@ -16,3 +16,4 @@
 
 ---
 tags: #checklist #qa
+
