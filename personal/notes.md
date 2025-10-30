@@ -17,3 +17,7 @@ Tam12345667 Onedr, Email  **thanhtam@hgpt.vn**
 ---
 tags: #checklist #qa
 
+## Quản lý sim số
+
+* `0915168063` : Số zalo Flowbot, 2k  **29/12/25 Khóa 1 chiều**
+* `0915187276` : Số zalo HGPT Mechanical, 11k   **29/12/25 Khóa 1 chiều**
