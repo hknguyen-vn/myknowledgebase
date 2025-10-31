@@ -3,9 +3,9 @@
 *Dung ghi chu, checklist nhanh tu moi thiet bi*
 
 ## P^s cam
-Daohien225@#  `B6CE1BGPSF4507D` , Safco: `L23C1256`  
+* Daohien225@#  `B6CE1BGPSF4507D` , Safco: `L23C1256`  
 
-Tam12345667 Onedr, Email  **thanhtam@hgpt.vn**
+* Tam12345667 Onedr, Email  **thanhtam@hgpt.vn**
 ## 2025-10-24 15:20:51
 
 ### ✅ Checklist – Chủ đề
