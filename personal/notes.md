@@ -27,3 +27,18 @@
 
 * Tài khoản / mật khẩu : admin / AnPhong@2025#@
 
+## ✅ Checklist – Kara
+- [ ] Khóc huynh đệ
+- [ ] Tình nồng
+- [ ] Chỉ anh hiểu em
+- [ ] Gã giang hồ
+- [ ] Anh nhớ ra
+- [ ] 
+
+> [!TIP]
+> Dùng Alt + C để tick nhanh trong VS Code.
+
+---
+tags: #checklist #qa
+
+
