@@ -4,6 +4,8 @@
 * 0949.386.113 (Hotline 24/7)
 * tender@hgpt.vn
 
+## 1.0 Milestone - Cột mốc lịch sử:
+
 ## 1.1 Profile - Hồ sơ năng lực:
 > [Truy cập để xem hoặc tải về] (https://drive.google.com/drive/folders/1Xd_I0-lu46JPduoBAoyCojnbSDRKpGlK)
 
