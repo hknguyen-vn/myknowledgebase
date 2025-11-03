@@ -3,197 +3,234 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Danh sách lớp / học viên</title>
+  <title>Danh sách động / nhiều sheet</title>
   <style>
     :root { --bd:#e5e7eb; --txt:#111827; --muted:#6b7280; --bg:#ffffff; --card:#fafafa; --primary:#111827; }
     * { box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; color: var(--txt); background: var(--bg); }
-    .wrap { max-width: 960px; margin: 0 auto; }
-    h1 { font-size: 32px; margin: 0 0 8px; }
+    .wrap { max-width: 1000px; margin: 0 auto; }
+    h1 { font-size: 28px; margin: 0 0 4px; }
     p.lead { color: var(--muted); margin: 0 0 16px; }
 
     .btn { padding: 8px 12px; border: 1px solid var(--bd); border-radius: 8px; background: #f9fafb; cursor: pointer; }
     .btn.primary { background: var(--primary); color: #fff; border-color: var(--primary); }
     .btn:disabled { opacity: .6; cursor: not-allowed; }
 
-    .form { display: grid; gap: 10px; max-width: 460px; margin: 16px 0; padding: 16px; border: 1px solid var(--bd); border-radius: 10px; background: #fff; }
+    .panel { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin: 8px 0 14px; }
+    .msg { font-size: 13px; color: var(--muted); }
+    .label { font-weight:600; }
+
+    .form { display: grid; gap: 10px; max-width: 520px; margin: 16px 0; padding: 16px; border: 1px solid var(--bd); border-radius: 10px; background: #fff; }
     .row { display: grid; gap: 6px; }
     label { font-size: 13px; color: var(--muted); }
     input { padding: 10px 12px; border: 1px solid var(--bd); border-radius: 8px; font-size: 14px; }
     .hidden { display: none; }
 
     table { width: 100%; border-collapse: collapse; border: 1px solid var(--bd); background: var(--card); }
-    th, td { padding: 10px 12px; border-bottom: 1px solid var(--bd); text-align: left; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--bd); text-align: left; vertical-align: top; }
     th { background: #f3f4f6; font-weight: 600; }
-    @media (max-width: 640px) { th:nth-child(6), td:nth-child(6) { display: none; } }
-
-    .msg { margin-left: 12px; font-size: 13px; color: var(--muted); }
-    .error { color: #b91c1c; }
-    .ok { color: #065f46; }
+    @media (max-width: 640px) { th, td { padding: 8px; font-size: 14px; } }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Danh sách lớp / học viên</h1>
-    <p class="lead">Xem danh sách hiện có và thêm/cập nhật thông tin của bạn.</p>
+    <h1>Danh sách động / nhiều sheet</h1>
+    <p class="lead">Tự hiển thị mọi cột theo header trong Google Sheet. Upsert theo cột khóa <code>sdt</code>.</p>
 
-    <div style="display:flex; align-items:center; gap:12px; margin: 8px 0 12px;">
+    <div class="panel">
+      <span class="label">Danh sách:</span> <span id="sheetLabel"></span>
+      <div id="sheetSwitcher"></div>
       <button class="btn primary" id="btnToggle">+ Thêm mới / Cập nhật</button>
       <span id="msg" class="msg"></span>
     </div>
 
-    <!-- Form thêm/cập nhật -->
-    <form id="fUpsert" class="form hidden" onsubmit="return false;">
-      <div class="row">
-        <label>Họ tên *</label>
-        <input name="ho_ten" required />
-      </div>
-      <div class="row">
-        <label>Số điện thoại (khóa cập nhật) *</label>
-        <input name="sdt" required />
-      </div>
-      <div class="row">
-        <label>Nghề nghiệp</label>
-        <input name="nghe_nghiep" />
-      </div>
-      <div class="row">
-        <label>Ghi chú</label>
-        <input name="ghi_chu" />
-      </div>
-      <!-- Nếu muốn dùng PIN, bật trong Apps Script & thêm input:
-      <div class="row">
-        <label>PIN (nếu được yêu cầu)</label>
-        <input name="pin" />
-      </div> -->
-      <div style="display:flex; gap:10px;">
-        <button class="btn primary" type="submit">Gửi</button>
-        <button class="btn" type="button" id="btnCancel">Hủy</button>
-      </div>
-    </form>
+    <!-- Form (sẽ được build động từ header) -->
+    <form id="fUpsert" class="form hidden" onsubmit="return false;"></form>
 
-    <!-- Bảng dữ liệu -->
+    <!-- Bảng dữ liệu (header & rows sẽ render động) -->
     <table id="class-table">
-      <thead>
-        <tr>
-          <th>STT</th>
-          <th>Họ tên</th>
-          <th>SĐT</th>
-          <th>Nghề nghiệp</th>
-          <th>Ghi chú</th>
-          <th>Cập nhật</th>
-        </tr>
-      </thead>
+      <thead><tr></tr></thead>
       <tbody></tbody>
     </table>
   </div>
 
   <script>
-  // 1) Dán đúng URL /exec của Apps Script
-  const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxJI3G3HhW900DEBn4bX7yDIo_xk7VAUQG0ihOGYLHTXOnTxnD91v1btzkWkcPsOWcJZA/exec';
+    // ====== CẤU HÌNH ======
+    const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxJI3G3HhW900DEBn4bX7yDIo_xk7VAUQG0ihOGYLHTXOnTxnD91v1btzkWkcPsOWcJZA/exec'; // <-- DÁN URL /exec THẬT
+    const params = new URLSearchParams(location.search);
+    const SHEET  = params.get('sheet') || 'list_c1';
+    window._cache = { header: [], rows: [] };
 
-  // 2) In cờ khởi động để chắc chắn script đang chạy
-  console.log('[class-list] boot. URL =', WEBAPP_URL);
+    // (Tuỳ chọn) danh sách tab để hiển thị dropdown chuyển nhanh
+    const LISTS = [
+      { id:'list_c1',  name:'Lớp C1' },
+      { id:'list_partner',  name:'Partner'  },
+    ];
 
-  // 3) Hàm che SĐT an toàn (ép về chuỗi trước)
-  function maskPhone(p) {
-    const d = String(p ?? '').replace(/\D/g, '');
-    if (d.length <= 4) return d;
-    return d.slice(0, d.length - 4).replace(/./g, '•') + d.slice(-4);
-  }
+    // Bỏ những cột không nên nhập tay trong form
+    const IGNORE_IN_FORM = new Set(['stt','updated_at','update_at']);
+    // Những cột nên required
+    const REQUIRED_FIELDS = new Set(['sdt','ho_ten']);
 
-  // 4) Tải dữ liệu + log mọi thứ ra Console
-  async function loadList() {
-    try {
-      const res = await fetch(WEBAPP_URL, { cache: 'no-store' });
-      const text = await res.text();              // đọc thô trước
-      console.log('[class-list] raw:', text);
-      const j = JSON.parse(text);                 // rồi parse
-      console.log('[class-list] json:', j);
+    // ====== Helper ======
+    const asString = v => (v==null ? '' : String(v));
 
-      const tb = document.querySelector('#class-table tbody');
-      tb.innerHTML = '';
-
-      if (!j.ok) {
-        tb.innerHTML = `<tr><td colspan="6" style="color:#c00">API trả ok=false: ${j.error || 'Unknown'}</td></tr>`;
-        return;
-      }
-      if (!Array.isArray(j.data)) {
-        tb.innerHTML = `<tr><td colspan="6" style="color:#c00">Sai định dạng: data không phải mảng</td></tr>`;
-        return;
-      }
-      if (j.data.length === 0) {
-        tb.innerHTML = `<tr><td colspan="6">Chưa có bản ghi nào</td></tr>`;
-        return;
-      }
-
-      j.data.forEach((r, i) => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${r.stt ?? (i + 1)}</td>
-          <td>${r.ho_ten ?? ''}</td>
-          <td>${maskPhone(r.sdt)}</td>
-          <td>${r.nghe_nghiep ?? ''}</td>
-          <td>${r.ghi_chu ?? ''}</td>
-          <td>${r.updated_at ? new Date(r.updated_at).toLocaleString('vi-VN') : ''}</td>`;
-        tb.appendChild(tr);
+    // ====== Render Switcher ======
+    function renderSheetSwitcher() {
+      const el = document.getElementById('sheetSwitcher');
+      if (!el || !LISTS.length) return;
+      const select = document.createElement('select');
+      LISTS.forEach(x => {
+        const opt = document.createElement('option');
+        opt.value = x.id; opt.textContent = x.name;
+        if (x.id === SHEET) opt.selected = true;
+        select.appendChild(opt);
       });
-    } catch (err) {
-      console.error('[class-list] ERROR:', err);
-      const tb = document.querySelector('#class-table tbody');
-      tb.innerHTML = `<tr><td colspan="6" style="color:#c00">Không tải được dữ liệu: ${String(err)}</td></tr>`;
+      select.onchange = () => {
+        const next = new URL(location.href);
+        next.searchParams.set('sheet', select.value);
+        location.href = next.toString();
+      };
+      el.appendChild(select);
     }
-  }
 
-  // 5) Gửi form (không sửa)
-  async function submitForm(e) {
-    e.preventDefault();
-    const fd = new FormData(e.target);
-    const payload = Object.fromEntries(fd.entries());
+    // ====== Build Form động theo header ======
+    function buildForm(header){
+      const form = document.getElementById('fUpsert');
+      if (!form) return;
+      form.innerHTML = '';
 
-    // gửi form-urlencoded (tránh preflight)
-    const body = new URLSearchParams(payload).toString();
+      header.forEach(hRaw=>{
+        const h = String(hRaw).trim();
+        const lower = h.toLowerCase();
+        if (IGNORE_IN_FORM.has(lower)) return; // bỏ qua
 
-    const msg = document.getElementById('msg');
-    msg.textContent = 'Đang gửi...';
-    try {
-      const res = await fetch(WEBAPP_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
-        body
+        const wrap = document.createElement('div');
+        wrap.className = 'row';
+        const label = document.createElement('label');
+        label.textContent = h;
+        const input = document.createElement('input');
+        input.name = h;     // tên input phải trùng header => server map động
+        input.placeholder = h;
+        if (REQUIRED_FIELDS.has(lower)) input.required = true;
+
+        // gợi ý type nhẹ
+        if (lower.includes('email')) input.type = 'email';
+        if (lower === 'sdt' || lower.includes('phone')) input.inputMode = 'numeric';
+
+        wrap.appendChild(label);
+        wrap.appendChild(input);
+        form.appendChild(wrap);
       });
 
-      // đọc text rồi parse JSON an toàn
-      const text = await res.text();
-      let j;
-      try { j = JSON.parse(text); }
-      catch (err) {
-        console.error('POST raw:', text);
-        throw new Error('Response không phải JSON');
-      }
+      // PIN (nếu phía server bật REQUIRE_PIN)
+      const pinWrap = document.createElement('div');
+      pinWrap.className = 'row';
+      const pinLabel = document.createElement('label');
+      pinLabel.textContent = 'PIN';
+      const pinInput = document.createElement('input');
+      pinInput.name = 'pin';
+      pinInput.required = true; // nếu server yêu cầu PIN
+      pinWrap.appendChild(pinLabel); pinWrap.appendChild(pinInput);
+      form.appendChild(pinWrap);
 
-      console.log('POST result:', j);
-      if (!j.ok) throw new Error(j.error || 'POST failed');
-
-      msg.textContent = (j.mode === 'update') ? '✅ Đã cập nhật!' : '✅ Đã thêm mới ok!';
-      e.target.reset();
-      document.getElementById('fUpsert').classList.add('hidden');
-      await loadList();
-    } catch (err) {
-      console.error(err);
-      msg.textContent = '⚠️ Lỗi gửi dữ liệu.';
+      // nút
+      const actions = document.createElement('div');
+      actions.style.display = 'flex';
+      actions.style.gap = '10px';
+      const btnSend = document.createElement('button');
+      btnSend.type = 'submit';
+      btnSend.textContent = 'Gửi';
+      btnSend.className = 'btn primary';
+      const btnCancel = document.createElement('button');
+      btnCancel.type = 'button';
+      btnCancel.textContent = 'Hủy';
+      btnCancel.className = 'btn';
+      btnCancel.onclick = () => { form.reset(); document.getElementById('msg').textContent=''; };
+      actions.appendChild(btnSend); actions.appendChild(btnCancel);
+      form.appendChild(actions);
     }
-  }
 
-  document.getElementById('fUpsert').addEventListener('submit', submitForm);
+    // ====== Load dữ liệu ======
+    async function loadList() {
+      try {
+        const res = await fetch(`${WEBAPP_URL}?sheet=${encodeURIComponent(SHEET)}`, { cache:'no-store' });
+        const j   = await res.json();
+        if (!j.ok) throw new Error(j.error || 'GET failed');
 
-  // 6) Gắn sự kiện
-  document.getElementById('btnToggle').onclick = () => document.getElementById('fUpsert').classList.toggle('hidden');
-  document.getElementById('btnCancel')?.addEventListener('click', () => document.getElementById('fUpsert').classList.add('hidden'));
-  document.getElementById('fUpsert').addEventListener('submit', submitForm);
+        const header = j.header || [];
+        const rows   = j.rows   || [];
 
-  // 7) Chạy
-  loadList();
-</script>
+        // header
+        const thead = document.querySelector('#class-table thead tr');
+        thead.innerHTML = '';
+        header.forEach(h => {
+          const th = document.createElement('th');
+          th.textContent = h;
+          thead.appendChild(th);
+        });
 
+        // body
+        const tbody = document.querySelector('#class-table tbody');
+        tbody.innerHTML = '';
+        rows.forEach(r => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = r.map(c => `<td>${asString(c)}</td>`).join('');
+          tbody.appendChild(tr);
+        });
+        // ★ LƯU CACHE để toggle/build form dùng lại
+        window._cache.header = header;
+        window._cache.rows   = rows;
+        // form
+        buildForm(header);
+        document.getElementById('msg').textContent = rows.length ? '' : 'Chưa có bản ghi nào.';
+        const label = document.getElementById('sheetLabel');
+        if (label) label.textContent = j.sheet || SHEET;
+      } catch (e) {
+        console.error(e);
+        document.querySelector('#class-table tbody').innerHTML =
+          '<tr><td colspan="6" style="color:#c00">Không tải được dữ liệu (xem Console).</td></tr>';
+      }
+    }
+
+    // ====== Submit (form-urlencoded để tránh preflight) ======
+    async function submitForm(e) {
+      e.preventDefault();
+      const fd = new FormData(e.target);
+      const payload = Object.fromEntries(fd.entries());
+      payload.sheet = SHEET; // gửi lên server để biết tab
+
+      const msg = document.getElementById('msg');
+      msg.textContent = 'Đang gửi...';
+
+      try {
+        const body = new URLSearchParams(payload).toString();
+        const res  = await fetch(WEBAPP_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+          body
+        });
+        const text = await res.text();
+        let j; try { j = JSON.parse(text); } catch(err){ console.error('POST raw:', text); throw err; }
+        if (!j.ok) throw new Error(j.error || 'POST failed');
+
+        msg.textContent = (j.mode === 'update') ? '✅ Đã cập nhật!' : '✅ Đã thêm mới!';
+        e.target.reset();
+        await loadList();
+      } catch (err) {
+        console.error(err);
+        msg.textContent = '⚠️ Lỗi gửi dữ liệu.';
+      }
+    }
+
+    // ====== Wire up ======
+    document.getElementById('fUpsert')?.addEventListener('submit', submitForm);
+    document.getElementById('btnToggle')?.addEventListener('click', ()=> {
+      document.getElementById('fUpsert').classList.toggle('hidden');
+    });
+
+    renderSheetSwitcher();
+    loadList();
+  </script>
 </body>
 </html>
