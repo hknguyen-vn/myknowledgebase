@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Danh sách lớp / học viên</title>
+<style>
+  :root { --bd:#e5e7eb; --txt:#111; --muted:#6b7280; --bg:#fff; --card:#fafafa; }
+  body { font-family: system-ui,sans-serif; margin: 24px; color: var(--txt); background: var(--bg); }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  table { width:100%; border-collapse:collapse; border:1px solid var(--bd); background:var(--card); }
+  th,td { padding:8px 12px; border-bottom:1px solid var(--bd); text-align:left; }
+  th { background:#f3f4f6; font-weight:600; }
+  .btn { padding:8px 12px; border:1px solid var(--bd); border-radius:6px; cursor:pointer; background:#f9fafb; }
+  .btn.primary { background:#111827; color:#fff; border-color:#111827; }
+  .form { display:grid; gap:8px; max-width:420px; margin-top:16px; padding:16px; border:1px solid var(--bd); border-radius:8px; background:#fff; }
+  input,button { padding:8px 10px; border:1px solid var(--bd); border-radius:6px; font-size:14px; }
+  .hidden { display:none; }
+  small { color:var(--muted); }
+  @media(max-width:640px){ th:nth-child(6),td:nth-child(6){display:none;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Danh sách lớp / học viên</h1>
+  <p>Xem danh sách hiện có và thêm/cập nhật thông tin của bạn.</p>
+
+  <button class="btn primary" id="btnToggle">+ Thêm mới / Cập nhật</button>
+  <small id="msg"></small>
+
+  <form id="fUpsert" class="form hidden" onsubmit="return false;">
+    <input name="ho_ten" placeholder="Họ tên" required>
+    <input name="sdt" placeholder="Số điện thoại (khóa cập nhật)" required>
+    <input name="nghe_nghiep" placeholder="Nghề nghiệp">
+    <input name="ghi_chu" placeholder="Ghi chú">
+    <button class="btn primary" type="submit">Gửi</button>
+  </form>
+
+  <table id="class-table">
+    <thead>
+      <tr>
+        <th>STT</th><th>Họ tên</th><th>SĐT</th>
+        <th>Nghề nghiệp</th><th>Ghi chú</th><th>Cập nhật</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+  const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbwdeZtwP41fHL_I0fXW6UNXTA4OEZ0uKoOH1jV3CTdMB2qOe5UgJo0sK95Iwz7eLm1i/exec';
+
+  const $msg = document.getElementById('msg');
+  const $form = document.getElementById('fUpsert');
+  document.getElementById('btnToggle').onclick = ()=> $form.classList.toggle('hidden');
+
+  const maskPhone = p=>{
+    const d=(p||'').replace(/\D/g,'');
+    if(d.length<=4)return d;
+    return d.slice(0,d.length-4).replace(/./g,'•')+d.slice(-4);
+  };
+
+  async function loadList(){
+    try{
+      const res=await fetch(WEBAPP_URL,{cache:'no-store'});
+      const j=await res.json();
+      if(!j.ok) throw new Error(j.error||'Load fail');
+      const tb=document.querySelector('#class-table tbody');
+      tb.innerHTML='';
+      j.data.forEach((r,i)=>{
+        const tr=document.createElement('tr');
+        tr.innerHTML=`
+          <td>${r.stt||i+1}</td>
+          <td>${r.ho_ten||''}</td>
+          <td>${maskPhone(r.sdt)}</td>
+          <td>${r.nghe_nghiep||''}</td>
+          <td>${r.ghi_chu||''}</td>
+          <td>${r.updated_at?new Date(r.updated_at).toLocaleString('vi-VN'):''}</td>`;
+        tb.appendChild(tr);
+      });
+    }catch(e){
+      console.error(e);
+      document.querySelector('#class-table tbody').innerHTML='<tr><td colspan=6>⚠️ Lỗi tải dữ liệu</td></tr>';
+    }
+  }
+
+  $form.addEventListener('submit',async e=>{
+    const fd=new FormData(e.target);
+    const payload=Object.fromEntries(fd.entries());
+    $msg.textContent='Đang gửi...';
+    try{
+      const res=await fetch(WEBAPP_URL,{
+        method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)
+      });
+      const j=await res.json();
+      if(!j.ok) throw new Error(j.error||'Send fail');
+      $msg.textContent=j.mode==='update'?'✅ Đã cập nhật!':'✅ Đã thêm mới!';
+      e.target.reset();$form.classList.add('hidden');loadList();
+    }catch(err){
+      console.error(err);$msg.textContent='⚠️ Lỗi gửi dữ liệu';
+    }
+  });
+
+  loadList();
+</script>
+</body>
+</html>
