@@ -15,3 +15,7 @@
 
 ## 1.3 Bảng biển chuẩn Công trình:
 > [Link docs] (https://docs.google.com/document/d/1s86K1dRuC1y1vqG0SVKB0h9ZENaaCGD9EjcoDOLqzyE/edit?usp=sharing)
+
+## 1.4 Logo chuẩn
+
+## 1.5 

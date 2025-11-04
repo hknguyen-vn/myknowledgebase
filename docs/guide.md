@@ -1,5 +1,8 @@
 # IT SUPPORT - TÀI LIỆU HƯỚNG DẪN
 
+> “Công nghệ chỉ thật sự mạnh khi con người biết chia sẻ và hỗ trợ nhau.”  
+> — IT-TT Team
+
 ## 1. Giới thiệu
 Bộ phận **IT Support / Help Desk** chịu trách nhiệm hỗ trợ kỹ thuật cho toàn bộ nhân viên trong công ty, đảm bảo hệ thống máy tính, mạng nội bộ, phần mềm, và thiết bị hoạt động ổn định.  
 Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì tính sẵn sàng của hệ thống**, và **hướng dẫn người dùng tự xử lý các vấn đề cơ bản**.
@@ -69,11 +72,12 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 - 192.168.1.246 LBP 242/243dw
 - 192.168.1.249 Ricoh 5054
 - 192.168.1.250 Ricoh 4054
+-
+### 5.2 Driver máy in
 
-
-### 5.2 Dải IP được cấp DHCP
-- 192.168.1.35 đến 192.168.1.229
-- 
+> [link tải về Ricoh Driver] (https://support.ricoh.com/bb/html/dr_ut_e/apc/model/mp2554/mp2554.htm?lang=en)
+> [link tải về Canon LBP 223 242]
+ 
 
 > “Công nghệ chỉ thật sự mạnh khi con người biết chia sẻ và hỗ trợ nhau.”  
 > — IT-TT Team

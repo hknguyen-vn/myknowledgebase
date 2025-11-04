@@ -6,16 +6,10 @@
 * Daohien225@#  `B6CE1BGPSF4507D` , Safco: `L23C1256`  
 
 * Tam12345667 Onedr, Email  **thanhtam@hgpt.vn**
-## 2025-10-24 15:20:51
 
-### ✅ Checklist – Chủ đề
+## 2025-11-04 14:30:47
 
-- [ ] Mục 1
-- [ ] Mục 2
-- [ ] Mục 3
 
-> [!TIP]
-> Dùng Alt + C để tick nhanh trong VS Code.
 
 ## Quản lý sim số:
 
