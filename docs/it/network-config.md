@@ -1,7 +1,7 @@
 # 🌐 NETWORK CONFIGURATION – HGPT Factory Network
 
 > Phiên bản: 2025-11-05  
-> Người cập nhật: **Nguyễn Văn Hiển – IT**  
+> Người cập nhật: **hienNK – IT**  
 > Mục đích: Ghi nhận và quản lý toàn bộ hạ tầng mạng nội bộ (Router, DHCP, IP tĩnh, thiết bị Wi-Fi, camera, v.v.)
 
 ---
@@ -17,7 +17,7 @@
 ├─ AP_01 (RG-RAP2200)
 ├─ AP_02 (RG-RAP2200)
 
-[Internet VNPT 2] **Dùng cho hệ NLMT**
+[Internet VNPT 2] **Dùng cho hệ NLMT + Net21**
 
 
 > Sơ đồ chi tiết có thể xem file `/assets/network-topology.drawio` hoặc `/images/network-topology.png`.
@@ -47,7 +47,7 @@
 |-----------|----------|
 | **DHCP Pool** | 192.168.1.79–192.168.1.229 |
 | **Gateway** | 192.168.1.1 |
-| **DNS Server** | 1.1.1.1, 8.8.8.8 |
+| **DNS Server** | 8.8.8.8, 8.8.4.4 |
 | **Lease Time** | 8 giờ |
 
 > DHCP được bật trên `bridge-LAN`.  
@@ -60,9 +60,13 @@
 | Thiết bị              | IP              | MAC Address       | Vị trí           | Ghi chú |
 |-----------------------|-----------------|-------------------|------------------|---------|
 | Hien-PC               | 192.168.1.9     | AA:BB:CC:DD:EE:01 | Phòng IT         | 
-| Server-PC             | 192.168.1.23    | AA:BB:CC:DD:EE:01 | Phòng IT         | DHCP Binding |
-| AP_Ruijie_01          | 192.168.1.11    | AA:BB:CC:DD:EE:03 | Văn phòng        | AP |
-| AP_Ruijie_02          | 192.168.1.12    | AA:BB:CC:DD:EE:04 | Xưởng cơ khí     | Bridge Mode |
+| HCPC-PC               | 192.168.1.23    | AA:BB:CC:DD:EE:01 | Phòng IT         | DHCP Binding |
+AP |
+| Grandstream 7660E     | 192.168.1.4     | AA:BB:CC:DD:EE:04 | VP               |
+| Grandstream 7600      | 192.168.1.6     | AA:BB:CC:DD:EE:04 | VP               |
+| Grandstream 7605      | 192.168.1.7     | AA:BB:CC:DD:EE:04 | VP               |
+| AP_Ruijie_01          | 192.168.1.11    | AA:BB:CC:DD:EE:03 | Quản đốc - Xưởng | 
+| AP_Ruijie_02          | 192.168.1.12    | AA:BB:CC:DD:EE:04 | P. KCS - Xưởng   | Bridge Mode |
 | NVR_KBvision          | 192.168.1.21    | AA:BB:CC:DD:EE:05 | Phòng bảo vệ     | Quản lý camera |
 | NVR_Hikvision         | 192.168.1.22    | AA:BB:CC:DD:EE:05 | Phòng bảo vệ     | Quản lý camera |
 | Printer_5054          | 192.168.1.249   | AA:BB:CC:DD:EE:06 | Văn phòng HR     | IP tĩnh in ấn |
@@ -107,7 +111,7 @@
 - Sao lưu cấu hình định kỳ `/system backup save name=auto_backup`
 - Giữ file xuất `/export file=router-export`
 - Kiểm tra tốc độ cổng ether1 và bridge
-- Đặt IP tĩnh cho server, NAS, camera, AP
+- Đặt IP tĩnh cho server, camera, AP
 - Không bật VLAN để giảm phức tạp, tuy nhiên nên tách VLAN Camera sau này để bảo mật hơn
 
 ---
@@ -115,13 +119,14 @@
 ## VIII. Lịch sử cập nhật
 | Ngày | Người thực hiện | Nội dung |
 |------|------------------|-----------|
-| 2025-11-04 | Hiển | Chuẩn hóa cấu hình không VLAN |
-| 2025-10-10 | Trọng | Thêm DHCP static cho NAS, NVR |
-
+| 2025-11-04 | Hiển | Cập nhật network config lên file .md |
+| 2025-05-10 | Hiển | Đi điện - lan VP - thay router chính Mikrotik + sw Ruijie |
+| 2025-04-10 | Hiển | Lắp thêm AP 7660E - wifi6 |
+--  dfjh|êur
 
 ---
 
-### IX. Mẹo mở rộng thêm:
+## IX. Mẹo mở rộng thêm:
 - Dùng block YAML ở đầu file:
   ```yaml
   ---
