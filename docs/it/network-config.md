@@ -66,11 +66,15 @@ AP |
 | Grandstream 7600      | 192.168.1.6     | AA:BB:CC:DD:EE:04 | VP               |
 | Grandstream 7605      | 192.168.1.7     | AA:BB:CC:DD:EE:04 | VP               |
 | AP_Ruijie_01          | 192.168.1.11    | AA:BB:CC:DD:EE:03 | Quản đốc - Xưởng | 
-| AP_Ruijie_02          | 192.168.1.12    | AA:BB:CC:DD:EE:04 | P. KCS - Xưởng   | Bridge Mode |
-| NVR_KBvision          | 192.168.1.21    | AA:BB:CC:DD:EE:05 | Phòng bảo vệ     | Quản lý camera |
-| NVR_Hikvision         | 192.168.1.22    | AA:BB:CC:DD:EE:05 | Phòng bảo vệ     | Quản lý camera |
-| Printer_5054          | 192.168.1.249   | AA:BB:CC:DD:EE:06 | Văn phòng HR     | IP tĩnh in ấn |
-| Printer_4054          | 192.168.1.250   | AA:BB:CC:DD:EE:06 | Văn phòng HR     | IP tĩnh in ấn |
+| AP_Ruijie_02          | 192.168.1.12    | AA:BB:CC:DD:EE:04 | P. KCS - Xưởng   | Quản lý camera |
+| NVR_KBvision          | 192.168.1.20    | AA:BB:CC:DD:EE:05 | VP               | 
+| NVR_KBvision          | 192.168.1.21    | AA:BB:CC:DD:EE:05 | Phòng bảo vệ     |
+| NVR_Hikvision         | 192.168.1.22    | AA:BB:CC:DD:EE:05 | VP               | 
+IP tĩnh in ấn |
+- 192.168.1.246 LBP 242/243dw
+| Printer_LBP 223dw     | 192.168.1.247   | AA:BB:CC:DD:EE:06 | Văn phòng HR     | 
+| Printer_5054          | 192.168.1.249   | AA:BB:CC:DD:EE:06 | Văn phòng HR     | 
+| Printer_4054          | 192.168.1.250   | AA:BB:CC:DD:EE:06 | Văn phòng HR     | 
 
 ---
 
@@ -99,11 +103,11 @@ AP |
 | AP_01 | 192.168.1.11 | Ruijie RG-RAP2200 | Khu KCS | SSID: HGPT-Office |
 | AP_02 | 192.168.1.12 | Ruijie RG-RAP2260 | Khu Quản đốc | SSID: HGPT-Factory |
 | NVR01 | 192.168.1.200 | Hikvision DS-7608NI | Phòng bảo vệ | Quản lý 8 camera |
-| Camera_01 | 192.168.1.11 | Hikvision 2MP | Cổng chính | — |
-| Camera_02 | 192.168.1.12 | Dahua 4MP | Kho vật tư | — |
+| Camera_01 | 192.168.1.33 | Kbvision 2MP | Cổng chính | — |
+| Camera_02 | 192.168.1.60 | Kbvision 2MP | Kho vật tư | — |
 
 > Toàn bộ camera dùng chung dải LAN, không VLAN riêng.  
-> NVR quản lý trực tiếp qua địa chỉ 192.168.1.200.
+> NVR quản lý trực tiếp qua địa chỉ 192.168.1.21
 
 ---
 
