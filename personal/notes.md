@@ -27,7 +27,7 @@
 - [ ] Chỉ anh hiểu em
 - [ ] Gã giang hồ
 - [ ] Anh nhớ ra
-- [ ] 
+- [ ] Có không giữ mất đừng tìm
 
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
