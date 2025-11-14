@@ -32,6 +32,9 @@
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
 
+## Bảng biển HGPT
+
+* Vòng tròn sử mệnh: PPT **Tháng 6/2025**
 ---
 tags: #checklist #qa
 
