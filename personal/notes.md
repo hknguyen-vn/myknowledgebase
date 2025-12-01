@@ -30,7 +30,7 @@
 - [ ] Có không giữ mất đừng tìm
 
 > [!TIP]
-> Dùng Alt + C để tick nhanh trong VS Code.
+> Dùng Alt + C để tick nhanh trong VS Code...
 
 ## Bảng biển HGPT
 
@@ -38,11 +38,12 @@
 ---
 tags: #checklist #qa
 
-## ✅ Lái xe B1/B2 Checklist nè
+## ✅ Lái xe B1/B2 Checklist nè bạn
 - [x] T4>T11/22  - Daewoo + Kia morning + Vios: 850km
 - [x] T8/23 - Lái Camry
 - [x] T7/24  - Lái thử Mitsu Triton
 - [x] 30/11/25 - Lái Ford Escape
+- [ ] A hihi
 - [ ] OKOK đó
 
 > [!TIP]
