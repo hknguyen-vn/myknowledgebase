@@ -44,7 +44,7 @@ tags: #checklist #qa
 - [x] T7/24  - Lái thử Mitsu Triton
 - [x] 30/11/25 - Lái Ford Escape
 - [ ] A hihi
-- [ ] OKOK đó
+- [ ] OKOK đó bạn ơi
 
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
