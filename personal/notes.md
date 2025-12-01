@@ -43,6 +43,7 @@ tags: #checklist #qa
 - [x] T8/23 - Lái Camry
 - [x] T7/24  - Lái thử Mitsu Triton
 - [x] 30/11/25 - Lái Ford Escape
+- [ ] A hihi
 - [ ] OKOK đó
 
 > [!TIP]
