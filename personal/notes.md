@@ -38,4 +38,16 @@
 ---
 tags: #checklist #qa
 
+## ✅ Lái xe B1/B2 Checklist
+- [x] T4>T11/22  - Daewoo + Kia morning + Vios: 850km
+- [x] T8/23 - Lái Camry
+- [x] T7/24  - Lái thử Mitsu Triton
+- [x] 30/11/25 - Lái Ford Escape
+- [ ] 
+
+> [!TIP]
+> Dùng Alt + C để tick nhanh trong VS Code.
+
+---
+tags: #checklist #qa
 
