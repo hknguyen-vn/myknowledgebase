@@ -30,7 +30,7 @@
 - [ ] Có không giữ mất đừng tìm
 
 > [!TIP]
-> Dùng Alt + C để tick nhanh trong VS Code.
+> Dùng Alt + C để tick nhanh trong VS Code...
 
 ## Bảng biển HGPT
 
