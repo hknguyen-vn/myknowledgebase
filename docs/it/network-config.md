@@ -41,7 +41,7 @@
 
 ---
 
-## III. ⚙️ DHCP CONFIGURATION
+## III. ⚙️ DHCP CONFIGURATIONnn
 
 | Thông số | Giá trị |
 |-----------|----------|
