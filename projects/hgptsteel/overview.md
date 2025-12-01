@@ -3,6 +3,7 @@
 * Trụ sở chính và Nhà máy: Đường số 8, KCN Hòa Cầm - Cẩm Lệ - Đà Nẵng.
 * 0949.386.113 (Hotline 24/7)
 * tender@hgpt.vn
+* Logo: 
 
 ## 1.0 Milestone - Cột mốc lịch sử:
 
@@ -14,3 +15,7 @@
 
 ## 1.3 Bảng biển chuẩn Công trình:
 > [Link docs] (https://docs.google.com/document/d/1s86K1dRuC1y1vqG0SVKB0h9ZENaaCGD9EjcoDOLqzyE/edit?usp=sharing)
+
+## 1.4 Logo chuẩn
+
+## 1.5 

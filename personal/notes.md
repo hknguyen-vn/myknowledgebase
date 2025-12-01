@@ -6,16 +6,10 @@
 * Daohien225@#  `B6CE1BGPSF4507D` , Safco: `L23C1256`  
 
 * Tam12345667 Onedr, Email  **thanhtam@hgpt.vn**
-## 2025-10-24 15:20:51
+* Thien3004@, **zalmumm**
+## 2025-11-04 14:30:47
 
-### ✅ Checklist – Chủ đề
 
-- [ ] Mục 1
-- [ ] Mục 2
-- [ ] Mục 3
-
-> [!TIP]
-> Dùng Alt + C để tick nhanh trong VS Code.
 
 ## Quản lý sim số:
 
@@ -33,12 +27,27 @@
 - [ ] Chỉ anh hiểu em
 - [ ] Gã giang hồ
 - [ ] Anh nhớ ra
-- [ ] 
+- [ ] Có không giữ mất đừng tìm
+
+> [!TIP]
+> Dùng Alt + C để tick nhanh trong VS Code.
+
+## Bảng biển HGPT
+
+* Vòng tròn sử mệnh: PPT **Tháng 6/2025**
+---
+tags: #checklist #qa
+
+## ✅ Lái xe B1/B2 Checklist nè
+- [x] T4>T11/22  - Daewoo + Kia morning + Vios: 850km
+- [x] T8/23 - Lái Camry
+- [x] T7/24  - Lái thử Mitsu Triton
+- [x] 30/11/25 - Lái Ford Escape
+- [ ] OKOK đó
 
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
 
 ---
 tags: #checklist #qa
-
 

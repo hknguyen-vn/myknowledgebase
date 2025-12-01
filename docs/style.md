@@ -158,7 +158,7 @@ Các file Docsify có thể tuỳ chỉnh màu trong index.html bằng CSS nội
 
 ## 🧱 13. Nguyên tắc lưu & commit
 Tên file viết thường, có gạch nối:
-hoa-phat-f-overview.md, danatech-plan.md
+danatech-plan.md
 
 Commit message ngắn gọn, ví dụ:
 

@@ -10,8 +10,6 @@
 [**Xem them**](ideas.md)
 [**Xem them 2**](../projects/hgptsteel/content-ideas.md)
 
-[2025-10-23]
-Co gi moi khong >cai nay can nhanh nhe 
-> [!NOTE]
-> Đây là ghi chú nhỏ cho nhóm truyền thông.  
-> Day la block ne
+[ ] Chào cờ @Công ty #Priority::P1  $EOM.
+
+[ ] Chào @hien #Priority::P2  $11/2025
