@@ -7,6 +7,7 @@
 
 2025-11-13 08:16:17: Ram DDR3 8Gb thay máy Duyên: 300k
 2025-11-14 08:16:47: Sửa card Msi 1650: 250k
+2025-12-04 08:09:56: Mua bàn phím, ram, case xigmatek Duo: 868k
 
 ## 2025-12-03 15:49:29
 
@@ -23,3 +24,5 @@
 + NO COMPROMISE & NEVER SPLIT THE DIFFENRENCE
 + FIND "BLACK SWAN"
 + 7 38 55 RULE
+
+### Toxic Productivity: Khi làm việc quá chăm chỉ gây phản tác dụng
