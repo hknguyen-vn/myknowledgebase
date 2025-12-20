@@ -44,6 +44,7 @@ tags: #checklist #qa
 - [x] T7/24  - Lái thử Mitsu Triton
 - [x] 30/11/25 - Lái Ford Escape
 - [x] 07/12/25 - Lái Ford Escape 2
+- 20/12/25 - Escape 3
 - [ ] 14/12/25 - 
 - [ ] A hihi
 - [ ] OKOK đó bạn ơi
