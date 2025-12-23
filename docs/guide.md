@@ -89,6 +89,8 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 
 > **ℹ️ NOTE**
 > Mr Dương IT- Hoàng Diệu: 
+> Mr Thắng - Camera
+> Mr An Phong - Hòa Xuân
 > Mr Chức - Tô Hiệu               
 > Mr Hậu - Phạm Nhữ Tăng
 > Mr Nguyên - Hòa Quý
