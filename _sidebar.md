@@ -9,7 +9,7 @@
   * [🌐 Hạ tầng mạng](projects/wifi-network.md)
   * [🏗️ HGPT STEEL](projects/hgptsteel/overview.md)
   * [📢 DANATECH](projects/danatech/overview.md)
-  * * [📢 DANATECH](projects/hgptsteel/user.md)
+  * [📢 USER](projects/hgptsteel/user.md)
 * **Docs**
   * [⚙️ Tips](docs/tips.md)
   * [📘 Guide](docs/guide.md)
