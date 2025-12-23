@@ -85,3 +85,18 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 > — IT-TT Team
 
 
+## 6. Nhà cung cấp IT - Truyển thông+
+
+> **ℹ️ NOTE**
+> Mr Dương IT- Hoàng Diệu: 
+> Mr Chức - Tô Hiệu               
+> Mr Hậu - Phạm Nhữ Tăng
+> Mr Nguyên - Hòa Quý
+> Mr Sang - Nguyễn Hoàng
+> Mr Hoàng Hồ - Phước Sơn - Màn Led
+> Ngọc Luân - Viễn Thông IT - 30/4
+> Mr Huế - Cứu hộ HDD - 
+> Mr Quốc Cường  - Tôn Đản - Laptop
+> Mr Dưỡng - Mainboard Nguyễn Huy Tưởng
+> > **⚠️ WARNING**
+> 
