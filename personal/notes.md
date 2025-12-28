@@ -45,6 +45,7 @@ tags: #checklist #qa
 - [x] 30/11/25 - Lái Ford Escape
 - [x] 07/12/25 - Lái Ford Escape 2
 - [x] 20/12/25 - Escape 3 - litle city tour
+- 28/12/25 - Escape 4 - son tra tour
 - [ ] 14/12/25 - 
 - [ ] A hihi
 - [ ] OKOK đó bạn ơi
