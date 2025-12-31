@@ -46,6 +46,8 @@ tags: #checklist #qa
 - [x] 07/12/25 - Lái Ford Escape 2
 - [x] 20/12/25 - Escape 3 - litle city tour
 - [x] 28/12/25 - Escape 4 - son tra + hoa khanh tour
+- [x] 30/12/25 - Camry
+- [ ] 
 
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
