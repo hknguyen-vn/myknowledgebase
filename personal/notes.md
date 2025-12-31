@@ -57,3 +57,15 @@ tags: #checklist #qa
 ## Tải phần mềm"
 
 https://maytinhf5.com/phan-mem/
+
+
+## Appsheet qrcode
+
+1. Hàm slice _CAUKIEN
+AND(
+IF(ISBLANK(INDEX(LOC[tu_ngay],1)),true,
+AND([update]>=INDEX(LOC[tu_ngay],1),[update]
+<=INDEX(LOC[toi_ngay],1))),IF(ISBLANK(LOC[ten_sp]),true,IN([_THISROW].[san_pham_id],INDEX(LOC[ten_sp],1))),
+
+IF(ISBLANK(LOC[cong_doan]),true,IN([_THISROW].[cong_doan],LOC[cong_doan]))
+)
