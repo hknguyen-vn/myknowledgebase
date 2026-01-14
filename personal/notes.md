@@ -28,6 +28,7 @@
 - [ ] Gã giang hồ
 - [ ] Anh nhớ ra
 - [ ] Có không giữ mất đừng tìm
+- [ ] Lạc mất mùa xuân
 
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code...
@@ -37,6 +38,10 @@
 * Vòng tròn sử mệnh: PPT **Tháng 6/2025**
 ---
 tags: #checklist #qa
+
+## Credit card
+
+- Mở thẻ tháng 05/2024
 
 ## ✅ Lái xe B1/B2 Checklist nè bạn ơi ơi:
 - [x] T4-T11/22  - Daewoo + Kia morning + Vios: 850km
