@@ -70,7 +70,8 @@ Mục tiêu của bộ phận là **giải quyết nhanh sự cố**, **duy trì
 
 - 192.168.1.247 LBP 223dw  **CCM**
 - 192.168.1.246 LBP 242/243dw **Ketoan**
-- .248
+- 192.168.1.248 LBP 
+- 
 - 192.168.1.249 Ricoh 5054  **new**
 - 192.168.1.250 Ricoh 4054
 - 

@@ -47,8 +47,9 @@ tags: #checklist #qa
 - [x] 20/12/25 - Escape 3 - litle city tour
 - [x] 28/12/25 - Escape 4 - son tra + hoa khanh tour
 - [x] 30/12/25 - Camry
-- [ ] 
-
+- [x] 31/12/25 - Escape 5
+- [x] 01/01/26 - Escape 6
+- [x] 08/01/26 - Thắng
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
 
