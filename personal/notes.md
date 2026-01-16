@@ -13,9 +13,9 @@
 
 ## Quản lý sim số:
 
-* `0915168063` : Số zalo Flowbot, 2k  **29/12/25 Khóa 1 chiều**
+* `0915168063` : Số zalo Flowbot, 2k  **16/03/26 Khóa 1 chiều** Vân
 
-* `0915187276` : Số zalo HGPT Mechanical, 11k   **29/12/25 Khóa 1 chiều**
+* `0915187276` : Số zalo HGPT Mechanical, 18k   **16/03/26 Khóa 1 chiều**   Hưng
 
 ## Winbox
 
@@ -28,7 +28,8 @@
 - [ ] Gã giang hồ
 - [ ] Anh nhớ ra
 - [ ] Có không giữ mất đừng tìm
-- [ ] Lạc mất mùa xuân
+- [ ] Lạc mất mùa xuân.
+- [ ] 
 
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code...
@@ -54,7 +55,7 @@ tags: #checklist #qa
 - [x] 30/12/25 - Camry
 - [x] 31/12/25 - Escape 5
 - [x] 01/01/26 - Escape 6
-- [x] 08/01/26 - Thắng
+- [x] 08/01/26 - Thắng Ok
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
 
