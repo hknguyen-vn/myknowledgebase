@@ -56,6 +56,7 @@ tags: #checklist #qa
 - [x] 31/12/25 - Escape 5
 - [x] 01/01/26 - Escape 6
 - [x] 08/01/26 - Thắng Ok
+- [x] 17-18/01/26 - De vỉa
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
 
