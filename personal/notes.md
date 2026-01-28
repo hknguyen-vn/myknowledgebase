@@ -3,7 +3,7 @@
 *Dung ghi chu, checklist nhanh tu moi thiet bi*
 
 ## P^s cam
-* Daohien225@#  `B6CE1BGPSF4507D` , Safco: `L23C1256`  
+* Daohien225@#  `B6CE1BGPSF4507D` , Safco: `23C1256`  
 
 * Tam12345667 Onedr, Email  **thanhtam@hgpt.vn**
 * Thien3004@, **zalmumm**
