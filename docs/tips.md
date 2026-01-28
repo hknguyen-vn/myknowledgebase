@@ -17,6 +17,19 @@ git push
 
 ```
 
+### 📝 Workflow Update Code & Deploy GitHub Pages (Vite + React)
+
+```bash
+1. Cập nhật source code (nhánh main)
+git add .
+git commit -m "update feature"
+git push origin main
+
+2. Build & deploy web (nhánh gh-pages)
+npm run deploy
+
+```
+
 ### Khởi chạy cục bộ: 
 Chạy lệnh `docsify serve .` để khởi động web cục bộ.
 
