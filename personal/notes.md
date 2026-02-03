@@ -58,6 +58,7 @@ tags: #checklist #qa
 - [x] 01/01/26 - Escape 6
 - [x] 08/01/26 - Thắng Ok
 - [x] 17-18/01/26 - De vỉa
+- [x] 01-02/02/26 - HGPT - De vỉa
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
 
