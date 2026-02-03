@@ -30,6 +30,8 @@
 - [ ] Anh nhớ ra
 - [ ] Có không giữ mất đừng tìm
 - [ ] Lạc mất mùa xuân.
+- [ ] Chia cách bình yên
+- [ ] Anh đau từ lúc e đi
 
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code...
