@@ -2,11 +2,11 @@
 
 *Dung ghi chu, checklist nhanh tu moi thiet bi*
 
-## P^s cpc
+## P^s cam
 * Daohien225@#  `B6CE1BGPSF4507D` , Safco: `23C1256`  
 
 * Tam12345667 Onedr, Email  **thanhtam@hgpt.vn**
-* Thien3004@, **zalmumm*
+* Thien3004@, **zalmumm**
 * hienFeb228@@thang *hiengnuyyenbk
 ## 2025-11-04 14:30:47
 
@@ -30,7 +30,6 @@
 - [ ] Anh nhớ ra
 - [ ] Có không giữ mất đừng tìm
 - [ ] Lạc mất mùa xuân.
-- [ ] 
 
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code...
@@ -58,7 +57,7 @@ tags: #checklist #qa
 - [x] 01/01/26 - Escape 6
 - [x] 08/01/26 - Thắng Ok
 - [x] 17-18/01/26 - De vỉa
-- [x] 01-02/02/26 - HGPT - De vỉa
+- [ ] 01-02/02/25 - HGPT De vỉa
 > [!TIP]
 > Dùng Alt + C để tick nhanh trong VS Code.
 
@@ -69,6 +68,10 @@ tags: #checklist #qa
 ## Tải phần mềm"
 
 https://maytinhf5.com/phan-mem/
+
+### Autocad full ver
+
+https://drive.google.com/drive/folders/1pxtRp8LldHtQIMJbVaecfKJj8SOXyokk?usp=drive_link
 
 
 ## Appsheet qrcode
