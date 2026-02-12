@@ -1,49 +1,43 @@
-# 1. Tổng quan HGPT Steel (Overview)
+# 🏗️ HGPT Steel: Tự tin - Nhân văn - Khát vọng
 
 ![HGPT Steel Banner](image-1.png)
 
-**Slogan:** *"Success Together"*
+> **Slogan:** *"Success Together"* | **Philosophy:** *"Walk the talk"*
 
-HGPT Steel là đơn vị chuyên nghiệp hàng đầu với hơn **37 năm kinh nghiệm** trong lĩnh vực Kết cấu thép và Cơ khí hạng nặng. Với tinh thần "Người làm thép" - Tự tin, Nhân văn và Khát vọng, chúng tôi cam kết chinh phục những công trình quy mô lớn và mang lại giá trị bền vững cho đối tác.
-
----
-
-### Thông tin liên hệ:
-* **Trụ sở chính & Nhà máy:** Đường số 8, KCN Hòa Cầm, P. Cẩm Lệ, TP. Đà Nẵng.
-* **Hotline (24/7):** 0949.386.113
-* **Email:** tender@hgpt.vn
-* **Hệ màu nhận diện:** Đỏ HGPT (`#E30613`) & Nâu đất (`#51361A`)
+HGPT Steel (Cơ khí Hà Giang Phước Tường) được sáng lập vào năm **1988** bởi **Thầy giáo Hà Giang**. Trải qua hơn **37 năm** kiên định, chúng tôi đã vươn mình trở thành đối tác tin cậy hàng đầu trong lĩnh vực chế tạo thiết bị cơ khí và kết cấu thép tại Việt Nam.
 
 ---
 
-### Điểm mạnh của công ty:
-* **Kinh nghiệm:** Hơn 37 năm sản xuất ống thép, kết cấu thép, thiết bị cơ khí cho nhà máy, công nghiệp nặng và nhà máy thủy điện.
-* **Công nghệ:** Công nghệ hàn HQC và máy hàn hiện đại Miller/Lincoln (Mỹ).
-* **Nền tảng kỹ thuật:** Ứng dụng nền tảng **Engineer Base** trong thiết kế và quản lý kỹ thuật.
-* **Sản xuất đồng bộ:** Dây chuyền cuốn ống, hàn, kiểm tra mối hàn và sơn hoàn thiện khép kín.
-* **Chất lượng:** Kiểm soát chất lượng nghiêm ngặt theo tiêu chuẩn kỹ thuật, đáp ứng yêu cầu khắt khe của dự án trong nước và xuất khẩu.
-* **Linh hoạt:** Chủ động tiến độ, linh hoạt theo yêu cầu thiết kế và thông số kỹ thuật riêng biệt của khách hàng.
+### 📍 Thông tin cốt lõi
+*   **Giá trị cốt lõi:** Nói được làm được (Walk the talk), Tận tâm, Trách nhiệm và Chuyên sâu.
+*   **Hệ màu:** Đỏ HGPT (`#E30613`) - Nhiệt huyết & Nâu đất (`#51361A`) - Vững chãi.
+*   **Phát triển bền vững:** Áp dụng tiêu chuẩn **ESG** (Environment - Social - Governance) vào hoạt động sản xuất kinh doanh.
+*   **Trụ sở:** KCN Hòa Cầm, P. Cẩm Lệ, TP. Đà Nẵng.
 
 ---
 
-### Các sản phẩm chính:
-* **Ống thép cỡ lớn:** Ống cuốn, ống hàn phục vụ công nghiệp và thủy điện.
-* **Kết cấu thép:** Nhà xưởng, nhà thép tiền chế, kết cấu thép siêu trường siêu trọng.
-* **Thiết bị cơ khí:** Thiết bị cho ngành công nghiệp nặng và các giải pháp cơ khí linh hoạt.
+### 🛡️ Lĩnh vực & Năng lực sản xuất
+HGPT Steel chuyên chế tạo và lắp đặt thiết bị cơ khí phụ trợ cho:
+1.  **Năng lượng:** Nhà máy Thủy điện (Đường ống áp lực, cửa van), Trạm biến áp đến 220kV.
+2.  **Công nghiệp nặng:** Nhà máy Thép, Nhà máy xi măng, Nhà máy nước.
+3.  **Xây dựng:** Kết cấu thép nhà xưởng, nhà thép tiền chế, kết cấu siêu trường siêu trọng.
+4.  **Cơ khí phụ trợ:** Thiết bị cho nhà máy bê tông ly tâm, bồn bể áp lực.
 
 ---
 
-## 1.0 Milestone - Cột mốc lịch sử
+### ✨ Điểm khác biệt tại HGPT Steel
+*   **Văn hóa Cải tiến**: Duy trì **Team Kaizen** với các buổi họp hằng tuần để lắng nghe ý kiến từ xưởng sản xuất đến công trường, tối ưu hóa từng công đoạn nhỏ nhất.
+*   **Đội ngũ:** Kỹ sư trẻ, năng động, nhiệt huyết và có tinh thần trách nhiệm cực cao.
+*   **Kỹ thuật:** Làm chủ công nghệ hàn HQC, máy hàn hiện đại Miller/Lincoln (Mỹ).
+*   **Thiết kế:** Ứng dụng nền tảng **Engineer Base** tối ưu hóa thiết kế và quản lý kỹ thuật.
+*   **Cam kết:** Chất lượng vượt mong đợi, bàn giao đúng tiến độ, an toàn tuyệt đối.
 
-## 1.1 Profile - Hồ sơ năng lực
-> [Truy cập để xem hoặc tải về](https://drive.google.com/drive/folders/1Xd_I0-lu46JPduoBAoyCojnbSDRKpGlK)
+---
 
-## 1.2 Chữ ký mail
-> [Hướng dẫn & Mẫu chữ ký](https://docs.google.com/document/d/1zSRVKayLFjjGEgeAsKEsOmA_cl3b2bg_/edit?usp=sharing&ouid=114338727376978127980&rtpof=true&sd=true)
+### 📂 Tài nguyên hệ thống
+*   [Hồ sơ năng lực (Profile)](https://drive.google.com/drive/folders/1Xd_I0-lu46JPduoBAoyCojnbSDRKpGlK)
+*   [Quy chuẩn bảng biển Công trình](https://docs.google.com/document/d/1s86K1dRuC1y1vqG0SVKB0h9ZENaaCGD9EjcoDOLqzyE/edit?usp=sharing)
+*   [Hướng dẫn Chữ ký Mail](https://docs.google.com/document/d/1zSRVKayLFjjGEgeAsKEsOmA_cl3b2bg_/edit?usp=sharing)
 
-## 1.3 Bảng biển chuẩn Công trình
-> [Quy chuẩn bảng biển](https://docs.google.com/document/d/1s86K1dRuC1y1vqG0SVKB0h9ZENaaCGD9EjcoDOLqzyE/edit?usp=sharing)
-
-## 1.4 Hệ thống Logo chuẩn
-
-## 1.5 Tài liệu hỗ trợ khác
+---
+*HGPT Steel – Walk the talk.*

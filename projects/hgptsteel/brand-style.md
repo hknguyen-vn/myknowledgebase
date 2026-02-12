@@ -1,24 +1,27 @@
-# HGPT STeel Brand Style Guide
+# HGPT Steel Brand Style Guide
 
-## 1. Giọng văn tổng thể
-- Tự tin, rõ ràng, có nhịp cảm xúc.
-- Pha chút nhân văn và tinh thần “người làm thép”.
-- Tránh rườm rà, tránh câu khẩu hiệu trống rỗng.
+## 1. Triết lý cốt lõi: "Walk the talk" (Nói được làm vậy)
+Đây là kim chỉ nam cho mọi giao tiếp. Sự tin cậy không đến từ lời hứa, mà đến từ thực tế công trình.
+- **Giọng văn**: Chân thực, cam kết, không dùng mỹ từ sáo rỗng.
+- **Diễn đạt**: Tập trung vào giải pháp và kết quả thực tế ("Chúng tôi đã làm...", "Kết quả là...").
 
-## 2. Màu sắc & tinh thần
-- Từ khóa: "Kết cấu", "An toàn", "Chất lượng", "Tiến độ".
-- Ưu tiên cách diễn đạt: hành động + cảm xúc.
-- Nhắc nhẹ về giá trị con người, tập thể.
+## 2. Brand Persona: "Người Thầy & Người Thợ"
+Kế thừa di sản từ Thầy giáo Hà Giang (Người sáng lập - 1988), HGPT Steel mang chân dung:
+- **Trí tuệ & Kỹ thuật**: Am hiểu sâu sắc, tư vấn tận tâm như một người thầy.
+- **Nghiêm túc & Bền bỉ**: Quyết liệt, không ngại khó khăn như một người thợ lành nghề.
+- **Cải tiến liên tục (Kaizen)**: Tinh thần học hỏi không ngừng với **Team Kaizen** họp hằng tuần để tối ưu quy trình và chất lượng.
+- **Nhân văn**: Gắn kết đội ngũ, tôn trọng cộng đồng và môi trường (ESG).
 
-## 3. Mẫu phong cách
-### a) Bài nội bộ
-Tone: ấm áp, khích lệ, gần gũi.  
-CTA: "Cùng nhau chia sẻ", "Cảm ơn anh em HGPT".
+## 3. Màu sắc & Tinh thần (Vibe)
+- **Đỏ HGPT (`#E30613`)**: Nhiệt huyết thép nung, sự chính xác tối cao.
+- **Nâu đất (`#51361A`)**: Sự vững chãi của đất mẹ, niềm tin bền vững qua 37 năm.
+- **Từ khóa**: "Walk the talk", "Kỹ thuật chuyên sâu", "An toàn là hơi thở", "Tiến độ là uy tín".
 
-### b) Bài doanh nghiệp (PR)
-Tone: chuyên nghiệp, khẳng định năng lực.  
-CTA: "Xem thêm tại...", "HGPT – Success Together".
+## 4. Mẫu phong cách (Application)
+### a) Truyền cảm hứng nội bộ
+Tone ấm áp, đề cao sự hy sinh thầm lặng.  
+*Ví dụ: "Mỗi mét công trình vươn cao là nhờ những giọt mồ hôi âm thầm của anh em."*
 
-### c) Bài mạng xã hội
-Tone: ngắn gọn, lan toả, có emoji nhẹ.  
-CTA: "Chia sẻ để lan toả tinh thần HGPT 💪".
+### b) Chuyên gia/Đối tác (PR)
+Khẳng định năng lực xử lý các bài toán kỹ thuật khó (Kết cấu siêu trường siêu trọng, thiết bị cơ khí phụ trợ).  
+*Ví dụ: "HGPT Steel – Walk the talk. Chúng tôi thực hiện hóa những bản vẽ phức tạp nhất."*
